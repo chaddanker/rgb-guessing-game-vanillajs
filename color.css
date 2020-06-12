@@ -1,0 +1,110 @@
+body{
+	text-align: center;
+	background-color: #232323;
+	font-family: 'Baloo Bhaina 2', cursive;
+	color: #fafafa;
+}
+
+.header{
+    background-color: steelblue;
+    width: 100vw;
+    padding: 0;
+    height: 100px;
+    position: relative;
+    top: -1.5vw;
+    left: -1.5vw;
+}
+
+.middle{
+	background-color: #fafafa;
+	width: 100%;
+	height: 30px;
+    padding-right: 1vw;
+	padding-left: 1vw;
+	display: inline-block;
+	position: relative;
+	top:-20px;
+	left: -0vw;
+	
+
+
+
+}
+
+.main{
+background-color: #787878;
+height: 100%;
+
+}
+
+.row{
+	width: 55vw;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.block{
+	display: block;
+	float: left;
+	border-radius: 15%;
+	width: 15vw;
+	height: 15vw;
+	margin: 1.66vw;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+#new{
+	float: left;
+	
+}
+
+#easy, #hard{
+	float: right;
+	margin-left: 1vw;
+
+	
+	
+}
+
+#easy{
+	margin-right: 5vw;
+}
+
+.header h1{
+	font-size: 3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	top: -3vw;
+}
+
+.header .up {
+	position: relative;
+	top: -6vw;
+}
+
+.middle .message {
+	
+	color: #fafafa;
+
+}
+
+.btn:hover{
+	background-color: steelblue;
+	color: #fff;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+
+}
+
+.btn {
+	text-decoration: none;
+	color: #000;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
