@@ -67,7 +67,7 @@ for(var i = 0; i < blocks.length; i++){
 				blocks[i].style.backgroundColor = c;
 			}
 			newGame.innerHTML = "<a href='#' id='new'>PLAY AGAIN?</a>";
-			message.innerHTML = "YOU FUCCKIN WONNNN!";
+			message.innerHTML = "YOU WON!";
 
 		}
 		else{
