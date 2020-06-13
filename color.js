@@ -49,7 +49,7 @@ function generate(){
 		blocks[i].style.backgroundColor = g[i];
 	}
 
-	h1.innerHTML = g[randomInt(0,5)]; //random colour for user to guess NEEDS RANDOMISER FUNCTION
+	h1.innerHTML = g[randomInt(0,5)]; 
 
 }
 
@@ -124,7 +124,7 @@ easy.addEventListener("click", function(){
 				b[i].style.backgroundColor = c;
 			}
 			newGame.innerHTML = "<a href='#' id='new'>PLAY AGAIN?</a>";
-			message.innerHTML = "YOU FUCCKIN WONNNN!";
+			message.innerHTML = "YOU WON!";
 
 		}
 	else{
